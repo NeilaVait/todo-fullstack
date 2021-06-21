@@ -4,13 +4,15 @@
   "description": "Json back en",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "front": "npm start --prefix client"
   },
   "author": "M.K",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^5.12.13",
-    "cors": "^2.8.5"
+    "mongoose": "^5.12.13"
   }
 }
