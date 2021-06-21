@@ -1,0 +1,9 @@
+.todo-page {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 7%;
+  border-radius: 1em;
+  border: 1px solid #333;
+  overflow: hidden;
+  padding: 1em;
+}

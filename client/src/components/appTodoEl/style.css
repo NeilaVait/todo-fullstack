@@ -1,0 +1,17 @@
+.app-todo-el > * {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.app-todo-el i {
+  cursor: pointer;
+}
+
+.app-todo-el i:last-child {
+  float: right;
+}
+
+.doneTitle {
+  text-decoration: line-through;
+  color: gray;
+}

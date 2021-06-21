@@ -1,0 +1,10 @@
+.todo-list {
+  margin: 2em 0 0.5em;
+  list-style: none;
+}
+
+.todo-list li {
+  border-bottom: 1px solid #333;
+  line-height: 1.5;
+  margin-bottom: 0.2em;
+}

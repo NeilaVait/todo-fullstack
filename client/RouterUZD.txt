@@ -1,0 +1,22 @@
+1. Gryzti laike i pirma commit - pasikurt nauja saka
+
+2. susikurti 4 komponentus, Home, about, contact, Navbar
+
+3. isitraukti komponentus i App.jsx
+
+4. susiinstaliuoti react router
+
+5. prisideti BrowserRouter i index.js
+
+6. isitraukti Route i App.jsx 
+
+7. pasikurti routes visiems koponentams pagal pavadinima
+
+8. Navbare pasidaryti nuorodas i komponentus pagal pavadinimus
+
+9. Navbaro a tagus pakeisti i Link jei dar nepakeista
+
+10. isitikinti kad veikia be refresh
+
+11. pasidaryti ir uzkrauti 404 puslapi kai nerandamas route
+

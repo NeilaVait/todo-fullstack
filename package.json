@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Json back en",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "author": "M.K",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "cors": "^2.8.5"
+  }
+}

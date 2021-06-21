@@ -1,0 +1,18 @@
+MERN STACK
+
+1. griztam i server saka
+
+2. uzsikomentuojam local state masyva todos
+
+3. state todos = []
+
+4. getTodos metodas iskvieciamas is componentDidMount() kad state todos atnaujinti su mongo esanciais todos 
+
+5. handleAddTodo() - perdarom kad pridetu nauja todo i duomenu baze
+
+6. padaryti kad atsinaujintu todo sarasa po naujo todo pridejimo
+
+7. handleDelete - padarom kad istrintu irasa is duomenu bazes + atnaujinam sarasa
+
+8. handleDoneUndone - kad veiktu is db. siuncia patch requesta ir pavercia esama reiksme i priesinga
+9. handleEditTodo - kad veiktu is db. siuncia patch requesta ir pavercia esama reiksme i priesinga

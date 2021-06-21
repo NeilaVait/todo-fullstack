@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #333;
+  color: snow;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLink,
+.navbar a {
+  text-decoration: none;
+  color: snow;
+  padding: 0.5em 1em;
+  display: inline-block;
+}
+
+.navbar div > a:hover {
+  background-color: rgb(74, 74, 74);
+}

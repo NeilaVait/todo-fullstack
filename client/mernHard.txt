@@ -1,0 +1,14 @@
+1. Salia Todo pasidaryti POSTs puslapi 
+
+2. Jame pasidarom postus pan kaip buvom pasidare full stack App
+
+3. pilnas crud su mogo db per json 
+
+4. Pasidaryti bent pradine validacija 
+jei laukas tuscias, jis raudonuoja
+jei lauke yra tik 3 raides tai irgi raudonuoja
+jei autoriaus lauke ivestas skaicius pranesam kad neleidziama
+
+5. pasidaryti kad galetume is front end ikeldami post prideti paveiksleli
+
+6. paveiksleniai turetu buti ikeliami i failu sistema ir is ten uzkraunami
