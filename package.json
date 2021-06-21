@@ -4,8 +4,10 @@
   "description": "Json back en",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "server": "nodemon index.js",
-    "front": "npm start --prefix client"
+    "front": "npm start --prefix client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "M.K",
   "license": "MIT",

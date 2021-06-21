@@ -1,7 +1,7 @@
 // aplinkos kintamieji
 require('dotenv').config();
 
-console.log(`user pass in env file is: ${process.env.MONGO_CONN_STRING}`);
+// console.log(`user pass in env file is: ${process.env.MONGO_CONN_STRING}`);
 
 const express = require('express');
 const app = express();
@@ -23,9 +23,14 @@ const todoApi = require('./api/todoApi');
 app.use('/', todoApi);
 
 const rootBuild = path.join(__dirname, 'client', 'build');
+// console.log(rootBuild);
 // pasitikrinti ar musu aplinka yra production
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(rootBuild));
+  // visas srautas nukreipiamas per produkcijos sukurta index.html
+  app.get('*', (req, res) => {
+    res.sendFile(path.join('index.html', { root: rootBuild }));
+  });
 }
 
 // prisijungimas prie duomenu bazes
